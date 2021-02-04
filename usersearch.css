@@ -1,0 +1,31 @@
+.top-left {
+	width: 20%;
+	float: left;
+	padding-left: 25px;
+}
+
+.top-right {
+	width:20%;
+	float: right;
+}
+
+.left {
+	width: 20%;
+	float: left;	
+	padding-left: 25px;
+}
+
+.right {
+	width: 20%;
+	float: right;	
+	margin-right: 40px;
+}
+
+.index {
+	display: flex;
+}
+
+table{
+	width: 96%;
+	margin: 25px;
+}

@@ -1,0 +1,38 @@
+.top-left {
+	width: 20%;
+	float: left;
+	padding-left: 25px;
+}
+
+.top-right {
+	width:20%;
+	float: right;
+	margin-top: 50px;
+}
+
+.left {
+	width: 20%;
+	float: left;	
+	padding-left: 25px;
+}
+
+.right {
+	width: 20%;
+	float: right;	
+	margin: 25px;
+    border-style: groove;
+    height: 256px;
+    font-size: 25px;
+    
+    text-align: center;
+    padding-top: 20px;
+}
+
+.index {
+	display: flex;
+}
+
+table{
+	width: 50%;
+	margin: 25px;
+}

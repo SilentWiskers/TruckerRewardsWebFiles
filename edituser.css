@@ -1,0 +1,15 @@
+.left{
+	float: left;
+	margin-top: 50px;
+	margin-left: 313px;
+}
+
+.right{
+	float: right;
+	margin-top: 50px;
+	margin-right: 334px;
+}
+
+.box{
+	margin-bottom: 20px;
+}

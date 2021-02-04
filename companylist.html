@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+	<link type="text/css" rel="stylesheet" href="companylist.css">
+	<title></title>
+</head>
+<body>
+	<form action ="" method="post" class="form-signin">
+	<div class="top">
+	<h2>Showing Companies</h2>
+	</div>
+	
+	<div class="top-left">
+	<label>
+		Show 
+		<select name="example_length" aria-controls="example" class="entry">
+			<option value="10">10</option>
+			<option value="25">25</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+		</select>
+		 entries
+	</label>
+	</div>
+	
+	<div class="top-right">
+	<label>
+		Search <input type="search" class="box" placeholder="" aria-controls="example">
+	</label>
+	</div>
+	
+	<table id="example" class="table table-striped table-bordered" style="width:96%">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Type</th>
+                <th># of Members</th>
+                
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>Apparel</td>
+                <td>50</td>
+                <td><button name="submit" class="add" type="submit">Edit Company</button></td>
+				<td><button name="submit" class="add" type="submit">Remove Company</button></td>
+            </tr>
+            <tr>
+                <td>Lion</td>
+                <td>Furniture</td>
+                <td>50</td>
+                <td><button name="submit" class="add" type="submit">Edit Company</button></td>
+				<td><button name="submit" class="add" type="submit">Remove Company</button></td>
+            </tr>
+            <tr>
+                <td>Chetah</td>
+                <td>Food</td>
+                <td>50</td>
+                <td><button name="submit" class="add" type="submit">Edit Company</button></td>
+				<td><button name="submit" class="add" type="submit">Remove Company</button></td>
+            </tr>
+		</tbody>
+    </table>
+	
+	<div class="left">
+		<div class="dataTables_info" id="example_info" role="status" aria-live="polite">Showing 1 to 10 of 3 entries</div>
+	</div>
+	
+	<div class="right">
+		<ul class="index">
+			<li <a href="#" aria-controls="example" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+			<li <a href="#" aria-controls="example" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+			<li <a href="#" aria-controls="example" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+			<li <a href="#" aria-controls="example" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
+			<li <a href="#" aria-controls="example" data-dt-idx="4" tabindex="0" class="page-link">Next</a></li>
+		</ul>
+	</div>
+	
+	</form>
+</body>
+</html>
